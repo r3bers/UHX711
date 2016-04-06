@@ -12,7 +12,7 @@ UHX711::UHX711(byte output_pin, byte clock_pin) {
 UHX711::~UHX711() {
 }
 
-uint8_t UHX711::SimpleShiftIn(uint8_t dataPin, uint8_t clockPin) { // ShiftIn without bitorder
+uint8_t UHX711::simpleShiftIn(uint8_t dataPin, uint8_t clockPin) { // ShiftIn without bitorder
 	uint8_t value = 0;
 	uint8_t i;
 
