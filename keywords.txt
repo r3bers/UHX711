@@ -1,19 +1,19 @@
 #######################################
-# Syntax Coloring Map For Q2HX711
+# Syntax Coloring Map For UHX711
 #######################################
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
 
-Q2HX711				KEYWORD1	Q2HX711
+UHX711	KEYWORD1	UHX711
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-readyToSend				KEYWORD2
-read			KEYWORD2
+readyToSend	KEYWORD2
+read	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)

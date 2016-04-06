@@ -1,6 +1,8 @@
 # Queuetue HX711 Arduino Library
 
-Copyright (c) 2015 Scott Russell (scott@queuetue.com), released under the MIT license.  
+
+Copyright (c) 2016 Mikhail Solovjov (mike@solovjov.net), released under the MIT license. 
+Copyright (c) 2015 Scott Russell (scott@queuetue.com), released under the MIT license. 
 See the LICENSE file for licensing details.
 
 A simple Arduino driver for the HX711 ADC.
@@ -11,10 +13,10 @@ The HX711 communicates with a non-i2c compliant two wire protocol and provides a
 
 This library provides the code required to use an Arduino, the HX711 module and a strain gauge load cell to build a scale, force gauge or many other pressure or force sensitive projects.
 
-The library has a single class, **Q2HX711** with two functions.  
+The library has a single class, **UHX711** with two functions. 
 
 ## Class
-The **Q2HX711** class takes two parameters on construction, the pin to use for data (output) and the pin to use to signal readiness (clock).
+The **UHX711** class takes two parameters on construction, the pin to use for data (output) and the pin to use to signal readiness (clock).
 
 ## Functions
 
@@ -28,8 +30,8 @@ Function  | Description
 Here is a simple example of using the HX711 on pins A2 and A3 to read a strain gauge and print it's current value:
 
 ```c++
-#include <Q2HX711.h>
-Q2HX711 hx711(A2, A3);
+#include <UHX711.h>
+UHX711 hx711(A2, A3);
 void setup() {
   Serial.begin(9600);
 }
