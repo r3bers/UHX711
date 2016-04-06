@@ -1,8 +1,7 @@
-# Queuetue HX711 Arduino Library
+# Universial HX711 Arduino Library
 
 
-Copyright (c) 2016 Mikhail Solovjov (mike@solovjov.net), released under the MIT license. 
-Copyright (c) 2015 Scott Russell (scott@queuetue.com), released under the MIT license. 
+Copyright (c) 2016 Mikhail Solovjov & 2015 Scott Russell (scott@queuetue.com), released under the MIT license.
 See the LICENSE file for licensing details.
 
 A simple Arduino driver for the HX711 ADC.
@@ -11,7 +10,7 @@ The HX711 is a low-cost strain gauge amplifier produced by Avia Semiconductor.  
 
 The HX711 communicates with a non-i2c compliant two wire protocol and provides an all-in-one solution to load cell amplification with relatively low noise.
 
-This library provides the code required to use an Arduino, the HX711 module and a strain gauge load cell to build a scale, force gauge or many other pressure or force sensitive projects.
+This library provides the code required to use an Arduino and STM32Duino, the HX711 module and a strain gauge load cell to build a scale, force gauge or many other pressure or force sensitive projects.
 
 The library has a single class, **UHX711** with two functions. 
 
