@@ -1,4 +1,4 @@
-# Universial HX711 Arduino Library
+# Universal HX711 Arduino Library
 
 
 Copyright (c) 2016 Mikhail Solovjov & 2015 Scott Russell (scott@queuetue.com), released under the MIT license.
